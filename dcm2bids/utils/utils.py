@@ -45,7 +45,7 @@ class DEFAULT(object):
                   "RL": "RL"}
 
     # dcm2niix.py
-    dcm2niixOptions = "-b y -ba y -z y -f '%3s_%f_%p_%t'"
+    dcm2niixOptions = "-b y -ba y -z y -f '%3s_%f_%p_%t' -m y"
     skip_dcm2niix = False
 
     # sidecar.py
